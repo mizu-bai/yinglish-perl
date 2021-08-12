@@ -18,7 +18,19 @@ $s2 = "吃葡萄不吐葡萄皮。";
 print Yinglish::chs2yin($s) . "\n";
 # ……吃〇〇不吐葡……葡萄皮……
 
-```
-
 ## 接口说明
 
+```perl
+sub chs2yin($s, $inran);
+
+```
+
+`$s` 是原字符串，淫乱度是0~1的实数，越大越淫乱，表示每个词语被转化的概率。
+
+## 安装
+
+使用 repo release 中发布的的 perl 包即可。
+
+项目依赖：
+
+1. [Lingua::ZH::Jieba](https://metacpan.org/dist/Lingua-ZH-Jieba/view/lib/Lingua/ZH/Jieba.pod)
