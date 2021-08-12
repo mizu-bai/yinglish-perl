@@ -47,6 +47,6 @@ $ make install
 
 将 `Yinglish.pm` 拷贝到自己的工程目录中，添加 `use lib ".";` 以使用。
 
-## 项目依赖：
+## 项目依赖
 
 1. [Lingua::ZH::Jieba](https://metacpan.org/dist/Lingua-ZH-Jieba/view/lib/Lingua/ZH/Jieba.pod)
