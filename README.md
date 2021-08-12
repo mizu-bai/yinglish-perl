@@ -31,7 +31,21 @@ sub chs2yin($s, $inran);
 
 ## 安装
 
-使用 repo release 中发布的的 perl 包即可。
+1. Perl Package 安装
+
+clone 该项目中的 Yinglish/ 目录，然后运行以下命令安装：
+
+```sh
+$ cd Yinglish
+$ perl Makefile.PL
+$ make
+$ make install
+
+```
+
+2. 直接导入文件
+
+将 `Yinglish.pm` 拷贝到自己的工程目录中，添加 `use lib ".";` 以使用。
 
 项目依赖：
 
