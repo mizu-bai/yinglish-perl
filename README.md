@@ -33,7 +33,7 @@ sub chs2yin($s, $inran);
 
 1. Perl Package 安装
 
-clone 该项目中的 Yinglish/ 目录，然后运行以下命令安装：
+clone 该项目中的 `Yinglish/` 目录，然后运行以下命令安装：
 
 ```sh
 $ cd Yinglish
