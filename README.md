@@ -15,7 +15,7 @@ print Yinglish::chs2yin($s) . "\n";
 # 不行，那……那里不行……
 
 $s2 = "吃葡萄不吐葡萄皮。";
-print Yinglish::chs2yin($s) . "\n";
+print Yinglish::chs2yin($s2) . "\n";
 # ……吃〇〇不吐葡……葡萄皮……
 
 ```
